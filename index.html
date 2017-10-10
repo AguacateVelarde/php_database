@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css">
+    <meta charset="utf-8">
+    <title>Document</title>
+  </head>
+  <body>
+
+     <form class="" action="insert.php" method="post">
+       <p>Nombre</p>
+       <input type="text" name="name">
+        <p>Contraseña</p>
+       <input type="password" name="pass">
+       <p>Email</p>
+       <input type="text" name="email">
+       <p>Apellido</p>
+       <input type="text" name="lastname">
+       <p>imagen</p>
+       <input type="text" name="img">
+       <p>Rol</p>
+       <select name="role">
+         <option value="admin">Admin</option>
+         <option value="user">User</option>
+         <option value="guest">Guest</option>
+       </select><br><br>
+      <input type="submit" >
+     </form>
+  </body>
+</html>
